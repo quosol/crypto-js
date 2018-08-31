@@ -3,17 +3,13 @@
 'use strict';
 
 module.exports = {
-    build: {
-        files: [{
-            expand: false,
-            cwd: '<%= meta.cwd %>',
-            src: [
-                'README.md',
-                'CONTRIBUTING.md',
-                'LICENSE',
-                'docs/**/*'
-            ],
-            dest: '<%= meta.build %>'
-        }]
-    }
+  build: {
+    files: [{
+      expand: false,
+      cwd: '<%= meta.cwd %>',
+      src: [
+      ],
+      dest: '<%= meta.build %>'
+    }]
+  }
 };

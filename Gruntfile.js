@@ -38,7 +38,6 @@ module.exports = function (grunt) {
         'modularize:build',
         'copy:build',
         'update_json:npm',
-        'update_json:bower'
     ]);
 
     grunt.registerTask('default', 'Run code checker', [

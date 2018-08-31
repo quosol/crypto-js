@@ -1,16 +1,16 @@
 {
-  "name": "crypto-js",
-  "title": "crypto-js",
-  "description": "JavaScript library of crypto standards.",
-  "version": "3.1.9",
-  "homepage": "http://github.com/brix/crypto-js",
+  "name": "crypto-js-aes",
+  "title": "crypto-js-aes",
+  "description": "JavaScript library of crypto standards (only AES).",
+  "version": "1.0.1",
   "author": {
     "name": "Evan Vosberg",
     "url": "http://github.com/evanvosberg"
   },
+  "homepage": "https://github.com/quosol/crypto-js",
   "repository": {
     "type": "git",
-    "url": "http://github.com/brix/crypto-js.git"
+    "url": "https://github.com/quosol/crypto-js.git"
   },
   "bugs": {
     "url": "http://github.com/brix/crypto-js/issues"
@@ -32,26 +32,5 @@
     "grunt-update-json": "^0.2.0",
     "load-grunt-config": "^0.16.0",
     "lodash": "^3.5.0"
-  },
-  "keywords": [
-    "security",
-    "crypto",
-    "Hash",
-    "MD5",
-    "SHA1",
-    "SHA-1",
-    "SHA256",
-    "SHA-256",
-    "RC4",
-    "Rabbit",
-    "AES",
-    "DES",
-    "PBKDF2",
-    "HMAC",
-    "OFB",
-    "CFB",
-    "CTR",
-    "CBC",
-    "Base64"
-  ]
+  }
 }
